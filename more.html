@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IMDB</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@700&family=Poppins:wght@300;900&display=swap" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAP0cAAAAAACPQ6AAAhqEAAoeZADvo/wAAeZkAAGFuAAC2zwAio8UAENHrAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERFmZmZmZmYRFoiIiIiIiGFlqqqqqqqohmUUGBQRNBdGZRQYFBMUEEZlFBEUGBQRRmUUFxQYFBeGZRQXFBMUGYZlFBkUETQahmVaqqoqqqqGFlVVVVVVVWERZmZmZmZmERERERERERERERERERERERH//wAA//8AAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAP//AAD//wAA" rel="icon" type="image/x-icon" />
+	<script src="https://kit.fontawesome.com/56e819561c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<h1>IMDB</h1>
+	<div class="row">
+		<div class="col-md-4">
+			<img id="movieImg" alt="Movie Poster"><br>
+			<button id="movieTrailer" class="btn btn-lg btn-outline-light btn-block">Watch trailer on IMDb</button>
+		</div>
+		<div class="col-md-8">
+			<h2 id="movieTitle"></h2>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-sm-3"><h4 id="movieYear" class="basicInfo"></h4></div>
+						<div class="col-sm-3"><h4 id="movieRuntime" class="basicInfo"></h4></div>
+						<div class="col-sm-6"><h4 id="movieSound" class="basicInfo"></h4></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h2 id="movieRating" class="text-center"></h2>
+					<h5 id="movieRatings" class="text-center"></h5>
+				</div>
+			</div>
+			<br>
+			<h3>Plot :-</h3>
+			<p id="moviePlot"></p>
+		</div>
+	</div>
+	<br>
+	<h3>Cast :-</h3>
+	<table id="movieCast" class="table table-sm table-dark">
+		<thead>
+			<tr>
+				<th>Actor</th>
+				<th>Character</th>
+			</tr>
+		</thead>
+	</table>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="js/side.js"></script>
+</html>

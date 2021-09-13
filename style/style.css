@@ -1,0 +1,78 @@
+.col-md-3 .well{
+	padding: 5%;
+	height: 540px;
+}
+.initial{
+	text-align: center;
+	padding-top: 30vh;
+}
+.input-group{
+	width: 80vw !important;
+	margin: 0 auto;
+}
+.poster{
+	width: 80%;
+	height: 390px;
+}
+.row{
+	margin: 0 !important;
+}
+body{
+	margin: 0;
+	background-color: #112031 !important;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: aliceblue !important;
+}
+button:hover{
+	background-color: aliceblue !important;
+}
+h1{
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	color: aliceblue;
+	font-size: 12vmax !important;
+	text-align: center;
+	margin-bottom: 25px !important;
+}
+h2{
+	font-family: "Lato";
+	font-weight: 700;
+	color: aliceblue;
+}
+input[type="text"]{
+	background-color: #D4ECDD;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+h3{
+	font-size: 8vmin !important;
+}
+h4{
+	display: inline;
+	font-size:2.5vmin !important;
+}
+#movieTitle{
+	font-size: 15vmin !important;
+	font-family: "Lora", serif !important;
+	font-weight: 700 !important;
+}
+#movieImg{
+	width: 100%;
+}
+#movieTrailer{
+	width: 100%;
+}
+#moviePlot{
+	font-size: 3vmin !important;
+	font-family: "Poppins", serif !important;
+	font-weight: 300 !important;
+}
