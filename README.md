@@ -6,3 +6,6 @@ The following API contains two endpoints namely "Film" and "Search".
 The get "Search" endpoint returns movie titles ( with associated movie id and movie poster ) for a string as parameter.
 The get "Film" endpoint returns all the required details about a particular movie like ratings, cast, runtime and a lot more. This endpoint requires movie id as a parameter.
 https://uchiha-satyam.github.io/IMDb-unofficial/
+
+# Note
+This project is put to an end as the API which was being used has now been discontinued. So, I am archiving this repository.
